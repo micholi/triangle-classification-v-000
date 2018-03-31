@@ -10,17 +10,18 @@ class Triangle
 
   def kind
     # returns, as a symbol, its type
+
     # code from custom error lab
-  #  self.partner = person
-  #  if person.class != Person
-  #    begin
-  #      raise PartnerError
-  #    rescue PartnerError => error
-  #      puts error.message
-  #    end
-  #  else
-  #  person.partner = self
-  #  end
+    #  self.partner = person
+    #  if person.class != Person
+    #    begin
+    #      raise PartnerError
+    #    rescue PartnerError => error
+    #      puts error.message
+    #    end
+    #  else
+    #  person.partner = self
+    #  end
 
   end
 
