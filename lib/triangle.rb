@@ -10,7 +10,7 @@ class Triangle
 
   def kind
     #if valid_triangle? == false
-    if !greater_than_zero? && !triangle_inequality
+    if greater_than_zero? == false && triangle_inequality == false
         raise TriangleError
     elsif
       a == b && b == c
