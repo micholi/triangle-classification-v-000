@@ -9,7 +9,6 @@ class Triangle
   end
 
   def kind
-    #if valid_triangle? == false
     if greater_than_zero? == false || triangle_inequality == false
         raise TriangleError
     elsif
@@ -23,10 +22,6 @@ class Triangle
       :scalene
     end
   end
-
-#  def valid_triangle?
-#    greater_than_zero? && triangle_inequality
-#  end
 
   def greater_than_zero?
     a > 0 && b > 0 && c > 0
