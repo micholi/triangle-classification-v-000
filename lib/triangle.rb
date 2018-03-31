@@ -31,10 +31,10 @@ class Triangle
       a == b && b == c
       :equilateral
     elsif
-      a != b && a != c && b != c
+      a == b && b != c || b == c && a != b
       :isosceles
     elsif
-
+      a != b && a != c && b != c
       :scalene
   end
 
