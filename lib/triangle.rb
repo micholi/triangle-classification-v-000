@@ -5,7 +5,7 @@ class Triangle
   def initialize(a, b, c)
     @a = a
     @b = b
-    @c = c  
+    @c = c
   end
 
   def kind
@@ -13,8 +13,15 @@ class Triangle
 
   end
 
-  def valid?
-    a > 0 && b > 0 && c > 0 &&
+  def valid_triangle?
+    greater_than_zero && triangle_inequality
+  end
+
+  def greater_than_zero?
+    a > 0 && b > 0 && c >0
+  end
+
+  def triangle_inequality
 
   end
 
