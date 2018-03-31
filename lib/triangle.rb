@@ -13,6 +13,10 @@ class Triangle
 
   end
 
+  def valid?
+
+  end
+
 # should raise a custom error, TriangleError if the triangle is invalid.
 # Check out the hint below to understand what makes a triangle invalid.
 # Write a custom error class, TriangleError and inherit it from StandardError.
