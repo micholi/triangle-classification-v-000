@@ -27,5 +27,6 @@ class Triangle
     #code goes here
     def message
       "Your triangle is invalid!"
+    end
   end
 end
