@@ -9,7 +9,6 @@ class Triangle
   end
 
   def kind
-    # returns, as a symbol, its type
     if valid_triangle? == false
       begin
         raise TriangleError
