@@ -8,4 +8,9 @@ class Triangle
     @side_three = side_three
   end
 
+  def kind
+    # returns, as a symbol, its type
+    
+  end
+
 end
