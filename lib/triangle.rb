@@ -28,7 +28,7 @@ class Triangle
     #  person.partner = self
     #  end
     elsif
-      
+      a == b && b == c
       :equilateral
     elsif 
       
