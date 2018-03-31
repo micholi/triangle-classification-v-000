@@ -27,7 +27,15 @@ class Triangle
     #  else
     #  person.partner = self
     #  end
-
+    elsif
+      
+      :equilateral
+    elsif 
+      
+      :isoceles
+    elsif
+      
+      :scalene
   end
 
   def valid_triangle?
