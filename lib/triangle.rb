@@ -10,10 +10,10 @@ class Triangle
 
   def kind
     if valid_triangle? == false
-      begin
+      #begin
         raise TriangleError
-      rescue TriangleError => error
-        puts error.message
+      #rescue TriangleError => error
+      #  puts error.message
       end
     # code from custom error lab
     #  self.partner = person
