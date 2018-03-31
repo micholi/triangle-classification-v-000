@@ -14,7 +14,7 @@ class Triangle
         raise TriangleError
       #rescue TriangleError => error
       #  puts error.message
-      end
+      #end
     # code from custom error lab
     #  self.partner = person
     #  if person.class != Person
