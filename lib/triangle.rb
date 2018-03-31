@@ -31,7 +31,7 @@ class Triangle
   end
 
   def valid_triangle?
-    greater_than_zero && triangle_inequality
+    greater_than_zero? && triangle_inequality
   end
 
   def greater_than_zero?
