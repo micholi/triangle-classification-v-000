@@ -11,20 +11,6 @@ class Triangle
   def kind
     if valid_triangle? == false
         raise TriangleError
-      #rescue TriangleError => error
-      #  puts error.message
-      #end
-    # code from custom error lab
-    #  self.partner = person
-    #  if person.class != Person
-    #    begin
-    #      raise PartnerError
-    #    rescue PartnerError => error
-    #      puts error.message
-    #    end
-    #  else
-    #  person.partner = self
-    #  end
     elsif
       a == b && b == c
       :equilateral
