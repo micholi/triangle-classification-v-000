@@ -10,7 +10,6 @@ class Triangle
 
   def kind
     if valid_triangle? == false
-      #begin
         raise TriangleError
       #rescue TriangleError => error
       #  puts error.message
@@ -52,9 +51,6 @@ class Triangle
   end
 
   class TriangleError < StandardError
-    def message
-      "Your triangle is invalid!"
-    end
   end
 
 end
