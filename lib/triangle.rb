@@ -35,11 +35,11 @@ class Triangle
   end
 
   def greater_than_zero?
-    a > 0 && b > 0 && c >0
+    a > 0 && b > 0 && c > 0
   end
 
   def triangle_inequality
-
+    array = [a, b, c]
   end
 
   class TriangleError < StandardError
