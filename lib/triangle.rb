@@ -32,7 +32,7 @@ class Triangle
       :equilateral
     elsif 
       
-      :isoceles
+      :isosceles
     elsif
       
       :scalene
