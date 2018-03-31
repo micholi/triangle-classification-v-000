@@ -39,7 +39,8 @@ class Triangle
   end
 
   def triangle_inequality
-    array = [a, b, c]
+    array = [a, b, c].sort
+    
   end
 
   class TriangleError < StandardError
