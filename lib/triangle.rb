@@ -36,6 +36,7 @@ class Triangle
     elsif
       a != b && a != c && b != c
       :scalene
+    end
   end
 
   def valid_triangle?
@@ -56,4 +57,5 @@ class Triangle
       "Your triangle is invalid!"
     end
   end
+
 end
