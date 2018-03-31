@@ -12,7 +12,7 @@ class Triangle
     # returns, as a symbol, its type
     if valid_triangle? == false
       begin
-        raise Triangle error
+        raise TriangleError
       rescue TriangleError => error
         puts error.message
       end
