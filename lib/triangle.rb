@@ -31,7 +31,7 @@ class Triangle
       a == b && b == c
       :equilateral
     elsif
-      a == b && b != c || b == c && a != b
+      a == b && b != c || b == c && a != b || a == c && a != b
       :isosceles
     elsif
       a != b && a != c && b != c
