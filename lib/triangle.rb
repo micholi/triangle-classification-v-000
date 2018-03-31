@@ -15,6 +15,7 @@ class Triangle
         raise Triangle error
       rescue TriangleError => error
         puts error.message
+      end
     # code from custom error lab
     #  self.partner = person
     #  if person.class != Person
@@ -48,7 +49,6 @@ class Triangle
 # but outside of the class definition of Triangle
 
   class TriangleError < StandardError
-    #code goes here
     def message
       "Your triangle is invalid!"
     end
